@@ -14,7 +14,7 @@ include __DIR__ . '/../data.php';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
-    <title>AJAX DISCHI</title>
+    <title>PRIMA VERSIONE</title>
 </head>
     <body>
         <header>
