@@ -20,7 +20,7 @@
             <div class="card_wrapper" >
                 <div class='card_container' v-for="disc in discs">
                     <a href='#' class='wrapper'> 
-                        <img :src="disc.poster" alt="disc.title" class='wrapper_img'>
+                        <img :src="disc.poster" :alt="disc.title" class='wrapper_img'>
                         <h5 class='title'>{{disc.title}}</h5> 
                         <h6>{{disc.author}}</h6>
                         <h6>{{disc.year}}</h6>
