@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #1E2D3B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #2E3A46;
+    display: flex;
+    align-items: center;
+}
+
+.header_logo {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.card_wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.card_container {
+    display: inline-block;
+    width: calc(100% / 6 - 20px);
+    background-color: #2E3A46;
+    margin: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.wrapper_img {
+    width: 100%;
+    height: 120px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 10px;
+}
+
+h6 {
+    color: grey;
+}
